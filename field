@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+import readlineSync from 'readline-sync';
+
+console.log('Добро пожаловать в игру "камень","ножницы","бумага"')
+console.log('Выберите вашу фигуру\n1. Камень\n2. Ножницы\n3. Бумага')
+readlineSync.question('Ваш выбор: ')
+let computer = Math.random()
+const computer1 = (c) => {
+if (c == 1) {
+  return 'Вы выбрали: Камень'
+} else if (c == 2) {
+  return 'Вы выбрали: Ножницы'
+} else if (c == 3) {
+  return  'Вы выбрали: Бумага'
+} else {
+  return  'Ошибка'
+}
+}
+console.log(computer1(3))
+const b = (computer) => {
+if (computer <= 0.64) {
+  computer == 1
+  return 'Компьютер выбрал: Камень'
+} else if (computer <= 0.36) {
+  computer == 2
+  return 'Компьютер выбрал: Ножницы'
+} else {
+  computer == 3
+  return 'Компьютер выбрал: Бумага'
+}
+}
+console.log(b(2))
+
+
+
+
+  
