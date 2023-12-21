@@ -1,7 +1,47 @@
-import readlineSync from 'readline-sync'
-import random from index.js
-console.log('Добро пожаловать в игру "Камень, Ножницы, Бумага"!')
-console.log('Выберите вашу фигуру:\n1. Камень\n2. Ножницы\n3. Бумага')
-Math.random()
-let user1 = 0;
-let comp = 0;
+#!/usr/bin/env node
+import readlineSync from 'readline-sync';
+let z = 'да'
+console.log('Добро пожаловать в игру "камень","ножницы","бумага"')
+console.log('Выберите вашу фигуру\n1. Камень\n2. Ножницы\n3. Бумага')
+while ( z === 'да' ) {
+var c = readlineSync.question("Ваш выбор: ");
+  if (c == 1) {
+    c = 'Камень';
+  } else if (c == 2) {
+    c = 'Ножницы';
+  } else if (c == 3) {
+    c = 'Бумага';
+  } else {
+    c = 'Неудовлетворительный выбор.';
+  }
+  console.log("Вы выбрали: " + c )
+  let computer = Math.random(0)
+  if (computer <= 0.33) {
+    computer = 'Камень';
+  } else if (computer <= 0.64) {
+    computer = 'Ножницы';
+  } else  {
+    computer = 'Бумага';
+  }
+console.log('Компъютер выбрал: ' + computer )
+function playRound(c, computer) {
+  if (c === computer) {
+    return 'Результат: Ничья!'
+  } else if (c === 'Камень' && computer === 'Ножницы') {
+    return 'Результат: Вы победили! Камень ломает ножницы.'
+  } else if (c === 'Камень' && computer === 'Бумага' ) {
+    return 'Результат: Вы проиграли! Бумага заворачивает камень.'
+  } else if (c === 'Ножницы' && computer === 'Камень' ) {
+    return 'Результат: Вы проиграли! Камень ломает ножницы.'
+  } else if (c === 'Ножницы' && computer === 'Бумага') {
+    return 'Результат: Вы победили! Ножницы режут бумагу.'
+  } else if (c === 'Бумага'  && computer ==='Камень') {
+    return 'Результат: Вы победили! Бумага заворачивает ножницы.'
+  } else if (c === 'Бумага' && computer === 'Ножницы' ) {
+    return 'Результат: Вы проиграли! Ножницы режут бумагу.'
+  } 
+   }
+  console.log(playRound(c, computer))
+  z = readlineSync.question("Хотите сыграть еще раз? (да/нет): ");
+}
+console.log('Спасибо за игру. До встречи!');

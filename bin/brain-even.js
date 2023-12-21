@@ -12,13 +12,13 @@ const getTypeOfSentence = (name) => {
 const name = readlineSync.question("May I have your name? ");
 console.log(getTypeOfSentence(name))
 const getNumber = (b) => {
-    if (b % 2 === 0) {
+    if (b % 2 == 0) {
       return 'Your answer: yes \nCorrect!';  
-    } else if (b === 'a') {
+    } else if (b == 'a') {
       return 'incorect. Comand not found'
-    } else if (b === 'A') {
+    } else if (b == 'A') {
       return 'incorect. Comand not found'
-    } else if (b === 'A'*1000) {
+    } else if (b == 'A'*1000) {
       return 'incorect. Comand not found'
     }  
     return 'Your answer: no \nCorrect!'; 
