@@ -1,36 +1,37 @@
 {
     "name": "@hexlet/code",
-    "version": "0.0.2",
-    "description": "",
+    "version": "1.0.0",
+    "description": "brain-games",
     "main": "index.js",
+    "bin": {
+      "brain-games": "bin/brain-games.js",
+      "brain-even": "bin/brain-even.js",
+      "brain-calc": "bin/brain-calc.js",
+      "brain-gcd": "bin/brain-gcd.js",
+      "brain-progression": "bin/brain-progression.js",
+      "brain-prime": "bin/brain-prime.js"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/d-mitrofanov/frontend-project-lvl1.git"
+      "type": "git",
+      "url": "git+https://github.com/MikhailManzik/frontend-project-lvl1.git"
     },
-    "author": "Dmitriy Gapchenko",
+    "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/d-mitrofanov/frontend-project-lvl1/issues"
+      "url": "https://github.com/MikhailManzik/frontend-project-lvl1/issues"
     },
-    "homepage": "https://github.com/d-mitrofanov/frontend-project-lvl1#readme",
+    "homepage": "https://github.com/MikhailManzik/frontend-project-lvl1#readme",
     "type": "module",
-    "bin": {
-        "brain-even": "bin/brain-even.js",
-        "brain-calc": "bin/brain-calc.js",
-        "brain-gdc": "bin/brain-gdc.js",
-        "brain-progression": "bin/brain-progression.js",
-        "brain-prime": "bin/brain-prime.js"
-    },
     "dependencies": {
-        "brain-games": "^1.1.5",
-        "readline-sync": "^1.4.10"
+      "readline-sync": "^1.4.10"
     },
     "devDependencies": {
-        "eslint": "^6.8.0",
-        "eslint-config-airbnb-base": "^14.1.0",
-        "eslint-plugin-import": "^2.20.2"
+      "eslint": "^7.14.0",
+      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-jest": "^24.1.3"
     }
-}
+  }
