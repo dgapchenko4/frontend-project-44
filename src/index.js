@@ -23,4 +23,4 @@ export default (description, getQuestionAndAnswer) => {
     }
   }
   console.log(`Congratulations, ${playerName}`);
-};
+}
