@@ -60,7 +60,7 @@ $ brain-gcd
 
 #### Пример игры
 
-[![asciicast](https://asciinema.org/a/9PQA0DCPW4pGKFEL5vZbM6SAA.svg)](https://asciinema.org/a/9PQA0DCPW4pGKFEL5vZbM6SAA)
+[![asciicast](https://asciinema.org/a/9PQA0DCPW4pGKFEL5vZbM6SAA.svg)](https://asciinema.org/a/9PQA0DCPW4pGKFEL5vZbM6SAA) 
 
 ## Игра: "Арифметическая прогрессия"
 
