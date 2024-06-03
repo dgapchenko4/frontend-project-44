@@ -46,7 +46,7 @@ $ brain-calc
 
 #### Пример игры
 
-[![asciicast](https://asciinema.org/a/lQrwFe3d6bUoQ9wR71APUHbWg.svg)](https://asciinema.org/a/lQrwFe3d6bUoQ9wR71APUHbWg)
+[![asciicast](https://asciinema.org/a/7RHgQ86k65kZWOZHqhlgVbmRh)]
 
 ## Игра: "НОД"
 
