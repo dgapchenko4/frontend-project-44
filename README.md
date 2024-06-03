@@ -32,7 +32,7 @@ $ brain-even
 
 #### Пример игры
 
-[![asciicast](https://asciinema.org/a/7RHgQ86k65kZWOZHqhlgVbmRh.svg)](https://asciinema.org/a/7RHgQ86k65kZWOZHqhlgVbmRh)   
+  
 
 ## Игра: "Калькулятор"
 
@@ -46,7 +46,7 @@ $ brain-calc
 
 #### Пример игры
 
-[![asciicast](https://asciinema.org/a/7RHgQ86k65kZWOZHqhlgVbmRh)]
+[![asciicast](https://asciinema.org/a/7RHgQ86k65kZWOZHqhlgVbmRh.svg)](https://asciinema.org/a/7RHgQ86k65kZWOZHqhlgVbmRh) 
 
 ## Игра: "НОД"
 
