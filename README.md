@@ -74,7 +74,7 @@ $ brain-progression
 
 #### Пример игры
 
-[![asciicast](https://asciinema.org/a/WwCJNGOwPVhHDhiqWzboqCHao.svg)](https://asciinema.org/a/WwCJNGOwPVhHDhiqWzboqCHao)
+[![asciicast](https://asciinema.org/a/E8yz6Bqvz647t96dG9hM8XP4I.svg)](https://asciinema.org/a/E8yz6Bqvz647t96dG9hM8XP4I)
 
 ## Игра: "Простое ли число?"
 
