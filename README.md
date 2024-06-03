@@ -41,7 +41,7 @@ $ brain-even
 #### Запуск игры
 
 ```
-$ brain-calc
+$ brain-calc  
 ```  
 
 #### Пример игры
