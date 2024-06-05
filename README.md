@@ -2,7 +2,7 @@
 [![linter](https://codeclimate.com/github/dgapchenko4/frontend-project-44/linter/badge.svg)](https://github.com/dgapchenko4/frontend-project-44/actions/runs/9381072027/job/25829498524)
 [![Maintainability](https://api.codeclimate.com/v1/badges/dd78c60ae55d258dbc11/maintainability)](https://codeclimate.com/github/dgapchenko4/frontend-project-44)
 
-# Игры разума (JavaScript)
+# Игры разума (JavaScript) Brain-games-node
 
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. 
 
