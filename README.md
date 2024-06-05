@@ -1,6 +1,6 @@
 ![hexlet-check](https://github.com/dgapchenko4/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)
 ![linter](https://github.com/MikhailManzik/frontend-project-lvl1/workflows/linter/badge.svg)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/202f31ff5178893b8a05/test_coverage)]
+![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
 
 # Игры разума (JavaScript)
 
