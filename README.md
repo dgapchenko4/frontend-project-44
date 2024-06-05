@@ -1,4 +1,4 @@
-![hexlet-check](https://github.com/dgapchenko4/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)
+[![hexlet-check](https://github.com/dgapchenko4/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dgapchenko4/frontend-project-44/actions)
 ![linter](https://github.com/MikhailManzik/frontend-project-lvl1/workflows/linter/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/dd78c60ae55d258dbc11/maintainability)](https://codeclimate.com/github/dgapchenko4/frontend-project-44)
 
