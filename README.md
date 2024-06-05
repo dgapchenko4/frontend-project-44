@@ -69,7 +69,7 @@ $ brain-gcd
 #### Запуск игры
 
 ```
-$ brain-progression
+$ brain-progression 
 ```  
 
 #### Пример игры
