@@ -1,6 +1,6 @@
 ![hexlet-check](https://github.com/dgapchenko4/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)
 ![linter](https://github.com/MikhailManzik/frontend-project-lvl1/workflows/linter/badge.svg)
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+![example event parameter](https://codeclimate.com/)
 
 # Игры разума (JavaScript)
 
@@ -11,7 +11,7 @@
 - Определение простого числа.
 - Калькулятор. Арифметические выражения, которые необходимо вычислить.
 - Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-- Определение наибольшего общего делителя.  
+- Определение наибольшего общего делителя.   
 
 
 ## Установка 
